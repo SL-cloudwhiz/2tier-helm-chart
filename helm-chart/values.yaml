@@ -1,14 +1,14 @@
 frontend:
   deploymentname: frontend-deployment
   replicas: 1
-  image: 562682534333.dkr.ecr.us-east-1.amazonaws.com/frontend-repo:1.0.8
+  image: 562682534333.dkr.ecr.us-east-1.amazonaws.com/frontend-repo:1.0.9
   servicename: frontend-service
   type: LoadBalancer
 
 backend:
   deploymentname: backend-deployment
   replicas: 1
-  image: 562682534333.dkr.ecr.us-east-1.amazonaws.com/backend-repo:1.0.8
+  image: 562682534333.dkr.ecr.us-east-1.amazonaws.com/backend-repo:1.0.9
   servicename: backend-service
 
 db:

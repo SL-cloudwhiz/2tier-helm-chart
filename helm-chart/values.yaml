@@ -14,5 +14,5 @@ backend:
 db:
   secrets:
     name: db-secrets
-    username: dmlqYXk=
+    username: c291
     password: UGFzc3dvcmQxMjM=
